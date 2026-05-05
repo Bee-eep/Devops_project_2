@@ -41,12 +41,12 @@ resource "aws_security_group" "devops_project_2_app_sg" {
 
 resource "aws_instance" "app_server" {
   ami                    = "ami-0cf10cdf9fcd62d37"
-  instance_type          = "t2.micro"  # Changed to t2.micro for AWS Learners Lab (may be free tier)
+  instance_type          = "t2.micro"
   vpc_security_group_ids = [aws_security_group.devops_project_2_app_sg.id]
   key_name               = "My_Key"
 
   root_block_device {
-    volume_size = 15  # Reduced from 20 to 15 GB to save costs
+    volume_size = 15
     volume_type = "gp2"
   }
 
