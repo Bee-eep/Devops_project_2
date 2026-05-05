@@ -129,27 +129,27 @@
 10. Monitor logs manually
 11. Debug pod issues in K8s
 
-❌ Error handling: Very manual
-❌ Repeatability: Low
-❌ Speed: Slow (multiple servers)
+ Error handling: Very manual
+ Repeatability: Low
+ Speed: Slow (multiple servers)
 ```
 
 ### AFTER: Automated & Simple
 ```
 1. Write Code
 2. git push to GitHub
-3. ✅ GitHub Actions starts automatically
+3.  GitHub Actions starts automatically
 4. Tests run
 5. Docker image built
-6. ✅ Image pushed to Docker Hub
-7. ✅ Automatic deployment to server
-8. ✅ Container starts with docker-compose
-9. ✅ Health check verifies running
+6.  Image pushed to Docker Hub
+7.  Automatic deployment to server
+8.  Container starts with docker-compose
+9.  Health check verifies running
 10. Done! App is live
 
-✅ Error handling: Automatic retry
-✅ Repeatability: Perfect
-✅ Speed: Fast (single server, direct push)
+ Error handling: Automatic retry
+ Repeatability: Perfect
+ Speed: Fast (single server, direct push)
 ```
 
 ---
@@ -172,37 +172,37 @@
 
 ## Benefits
 
-### 🎯 Immediate Benefits
-- ✅ No Jenkins server to maintain
-- ✅ No Kubernetes to manage
-- ✅ Simpler deployment pipeline
-- ✅ 88% cost reduction
-- ✅ Faster CI/CD (parallel GitHub Actions runners)
+###  Immediate Benefits
+-  No Jenkins server to maintain
+-  No Kubernetes to manage
+-  Simpler deployment pipeline
+-  88% cost reduction
+-  Faster CI/CD (parallel GitHub Actions runners)
 
-### 🚀 Learning Benefits
-- ✅ Focus on core DevOps concepts (not enterprise complexity)
-- ✅ Git-driven CI/CD (industry standard)
-- ✅ Container fundamentals still present
-- ✅ Easier to debug and understand
-- ✅ Portfolio-friendly for interviews
+###  Learning Benefits
+-  Focus on core DevOps concepts (not enterprise complexity)
+-  Git-driven CI/CD (industry standard)
+-  Container fundamentals still present
+-  Easier to debug and understand
+-  Portfolio-friendly for interviews
 
-### 🔧 Operational Benefits
-- ✅ Auto-scaling GitHub Actions runners
-- ✅ No session management (stateless)
-- ✅ Easier to reproduce issues
-- ✅ Better logging and debugging
-- ✅ Can pause deployment by stopping EC2 (saves credits!)
+###  Operational Benefits
+-  Auto-scaling GitHub Actions runners
+-  No session management (stateless)
+-  Easier to reproduce issues
+-  Better logging and debugging
+-  Can pause deployment by stopping EC2 (saves credits!)
 
 ---
 
 ## What Stayed the Same
 
-✅ **Maven** - Still your build tool  
-✅ **Docker** - Still containerizing your app  
-✅ **Docker Hub** - Still your registry  
-✅ **Java/Spring Boot** - Still your application  
-✅ **GitHub** - Still your repository  
-✅ **AWS** - Still your cloud provider  
+ **Maven** - Still your build tool  
+ **Docker** - Still containerizing your app  
+ **Docker Hub** - Still your registry  
+ **Java/Spring Boot** - Still your application  
+ **GitHub** - Still your repository  
+ **AWS** - Still your cloud provider  
 
 ---
 
@@ -226,13 +226,13 @@
 
 | Scenario | Recommendation |
 |----------|-----------------|
-| Learning DevOps basics | ✅ Use NEW simplified stack |
-| Portfolio/interview | ✅ Use NEW simplified stack |
-| AWS Learners Lab | ✅ Use NEW simplified stack |
-| Production application | ⚠️ Consider K8s if you need scaling |
-| Small team/startup | ✅ Use NEW simplified stack |
-| Enterprise requirements | ❌ Consider K8s/Jenkins only if required |
+| Learning DevOps basics |  Use NEW simplified stack |
+| Portfolio/interview |  Use NEW simplified stack |
+| AWS Learners Lab |  Use NEW simplified stack |
+| Production application |  Consider K8s if you need scaling |
+| Small team/startup |  Use NEW simplified stack |
+| Enterprise requirements |  Consider K8s/Jenkins only if required |
 
 ---
 
-**Result: You get 90% of the DevOps learning with 10% of the complexity! 🎉**
+**Result: You get 90% of the DevOps learning with 10% of the complexity! **
