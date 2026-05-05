@@ -47,9 +47,9 @@
         Docker Container
         (App running as Pod)
 
-📊 COST: ~$54/month + management overhead
-⚙️  COMPLEXITY: Very High (Kubernetes, Jenkins, 2 servers)
-🔧 MAINTENANCE: Constant (patching, updates, troubleshooting)
+ COST: ~$54/month + management overhead
+  COMPLEXITY: Very High (Kubernetes, Jenkins, 2 servers)
+ MAINTENANCE: Constant (patching, updates, troubleshooting)
 ```
 
 ---
@@ -89,9 +89,9 @@
     Docker Compose Container
     (App running simply)
 
-📊 COST: ~$3-5/month + minimal management
-⚙️  COMPLEXITY: Very Low (Single Docker Compose file)
-🔧 MAINTENANCE: Minimal (just the EC2 instance)
+ COST: ~$3-5/month + minimal management
+  COMPLEXITY: Very Low (Single Docker Compose file)
+ MAINTENANCE: Minimal (just the EC2 instance)
 ```
 
 ---
