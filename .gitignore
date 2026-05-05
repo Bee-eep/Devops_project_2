@@ -2,3 +2,5 @@
 terraform_files/.terraform/
 terraform_files/*.tfstate
 terraform_files/*.tfstate.backup
+terraform_files\My_Key.pem
+terraform_files\.terraform.lock.hcl
